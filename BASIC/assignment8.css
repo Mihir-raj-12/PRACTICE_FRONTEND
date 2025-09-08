@@ -1,0 +1,76 @@
+*{
+    color: azure;
+}
+
+body{
+    background-color: darkturquoise;
+    background : linear-gradient(to right,#9b046b 0% , #11a9cb 100%)
+}
+
+
+h2{
+    color: white;
+}
+a{
+    color: white;
+}
+
+
+.box1{
+    background-color: green; 
+    color: white; 
+    overflow: hidden; 
+    width: 100px;
+    height: 100px; 
+    border: 1px solid black;
+}
+
+.box2{
+    border: 1px solid black;
+    overflow: scroll; 
+    height: 200px; 
+    width: 200px;
+}
+
+.box3{
+    border: 1px solid black; 
+    overflow-y: scroll;
+    height: 150px; 
+    width: 150px;
+}
+
+.box4{
+    border: 1px solid black;  
+    overflow-x: scroll; 
+    text-wrap: nowrap; 
+    height: 150px; 
+    width: 150px;
+}
+
+.box5{
+    width: 100px; 
+    height: 20px; 
+    overflow: hidden; 
+    border: 1px solid black;
+}
+
+.box6{
+    width: 100px;     
+    height: 20px; 
+    overflow: hidden; 
+    border: 1px solid black;
+    text-wrap : nowrap;
+    text-overflow: ellipsis;
+}
+
+.box7{
+    width: 150px; 
+    height: 150px; 
+    overflow: visible; 
+    border: 1px solid black;
+}
+
+.parent{
+    display: flex; 
+    gap: 20px;
+}
