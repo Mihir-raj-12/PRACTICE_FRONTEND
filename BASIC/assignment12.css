@@ -1,0 +1,72 @@
+#text{
+
+}
+
+#box1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    top:50px;
+    right: 100px;
+    transform: skew(45deg);
+}
+
+
+
+#box2{
+    position:absolute;
+    height: 150px;
+    width: 100px;
+    background-color: rgb(19, 201, 34);
+    top:300px;
+    left: 500px;
+    transform: rotate(90deg);
+}
+
+
+
+#box3{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(4, 29, 194);
+    top: 600px;
+    left: 1300px;
+
+}
+
+#box4{
+    position:relative;
+    height: 200px;
+    width: 50px;
+    background-color: rgb(206, 162, 14);
+    top: 1px;
+    left:1px;
+}
+
+
+#box4:hover{
+    animation: moveBox4 0.5s forwards;
+}
+
+@keyframes moveBox4 {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(100px, 50px);
+    }
+}
+
+
+#box5{
+    position:sticky;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(167, 16, 181);
+    top:1px;
+    left : 200px;
+    
+}
+

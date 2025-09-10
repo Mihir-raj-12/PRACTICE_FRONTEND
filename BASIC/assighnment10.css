@@ -1,0 +1,32 @@
+#outer{
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+    border-bottom:1px solid black ;
+    border-radius: 5px;
+
+}
+
+h2{
+    font-size: small;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+#inner{
+    border-bottom: 5px double rgb(181, 37, 21) ;
+    border-radius: 5px;
+    margin: 10px;   
+}
+
+#innertwodiv{
+    border: 1px dashed black;
+    outline: 1px solid blue;
+    outline-offset: 5px;
+    margin: 20px;
+}
+
+.name{
+border: 1px solid yellow;
+margin: 15px;
+padding: 10px;
+}

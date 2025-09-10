@@ -3,73 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assignment9(form).css">
     <title>Document</title>
 </head>
 <body>
+    <div id="heading">
+    <p>
+        Complete Profile Form
+    </p>
+    </div>
     <form>
-        
+
+             
             <fieldset>
-                <legend>Basic Information</legend> 
-           <label for="Name">FulLName : </label>
-           <input type="text" required placeholder="Mihirsinh" id="Name" > 
+            <legend>Basic Information</legend> 
+           <div class="inputarea"> 
+           <label for="Name">Full Name : </label>
+           <input type="text" required placeholder="Enter your full name" id="Name" > 
+           </div> 
            <br>
            <br>
+           <div class="inputarea"> 
            <label for="email">Email : </label>
-           <input type="email" required id="email" >
+           <input type="email" required id="email" placeholder="example@gmail.com" >
+           </div> 
            <br>
            <br>
+           <div class="inputarea"> 
            <label for="password">Password : </label>
            <input type="password" min="6" id="password">
+           </div> 
            <br>
            <br>
+           <div class="inputarea">
            <label for="Confirm password">Confirm Password : </label>
            <input type="password" min="6" placeholder="Should match password" id="Confirm password">
-
+           </div> 
+                
            </fieldset>
-    
 
         <fieldset>
-                <legend>Contact Information</legend> 
+            <legend>Contact Information</legend> 
+            <div class="inputarea"> 
            <label for="Number">Phone Number: </label>
-           <input type="tel" required id="Number" placeholder="Phone Number"> 
+           <input type="tel" required id="Number" placeholder="123456790"> 
+           </div>
            <br>
            <br>
+           <div class="inputarea"> 
            <label for="website">Website/Portfolio Url </label>
-           <input type="url" required id="website"  >
+           <input type="url" required id="website" placeholder="https/example.com" >
+           </div>
            <br>
            <br>
-           <label for="phote">Upload Profile Picture: </label>
+           <div class="inputarea"> 
+           <label for="photo" >Upload Profile Picture: </label>
            <br>
-           <input type="file" id="phote">
+           <input type="file" id="photo" >
+           </div>
 
            </fieldset>
 
            <fieldset>
-                <legend>Selection Input</legend> 
-           <label for="male">Male: </label>
+            <legend>Selection Input</legend> 
+            <div id = "gender">
            <input type="radio" required id="male" name="Gender" >
-           <label for="female">female: </label>
+           <label for="male">: Male </label>
            <input type="radio" required id="female" name="Gender" >
-
+           <label for="female">: female </label>
+            </div>
            <br>
            <br>
 
            <fieldset>
             <legend>Skill </legend>
+            <div id="skill">
+            <div id="selectitems">
             <label for="html">HTML </label>
             <input type="checkbox" id="html" name="skill" value="html">
+            </div> 
+            <div id="selectitems">
             <label for="css">CSS</label>
             <input type="checkbox" id="css" name="skill" value="css">
+            </div>
+            <div id="selectitems">
             <label for="JavaScript">JavaScript </label>
             <input type="checkbox" id="JavaScript" name="skill" value="JavaScript">
+            </div>
+            <div id="selectitems">
             <label for="react">React </label>
             <input type="checkbox" id="react" name="skill" value="react">
+            </div>
+            <div id="selectitems">
             <label for="Angular">Angular </label>
             <input type="checkbox" id="Angular" name="skill" value="Angular">
-        
+            </div>
+            </div>
            </fieldset>
 
            <br>
+           <div class="inputarea"> 
            <label for="Selection"> Preffered Location :</label>
            <select name="location" required >
             <option value="Anand" selected> Anand</option>
@@ -77,53 +110,74 @@
             <option value="Valsad">Valsad</option>
             <option value="Surat">Surat</option>
            </select>
+           </div>
 
            </fieldset>
 
 
            <fieldset>
             <legend>Advanced Input</legend>
+            <div class="inputarea"> 
             <label for="dob">Date of birth:</label>
             <input type="date" id="dob">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="week">Select a Week:</label>
             <input type="week" id="week">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="month">Select Month:</label>
             <input type="month" id="month">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="">Choose a Time</label>
             <input type="time">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="">Choose Local Time and Date</label>
             <input type="datetime-local">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="colour">Pick Your Favourite Colour:</label>
-            <input type="color">
+            <input type="color" style="width: 100%;">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="">Age:</label>
             <input type="number" min="1" max="10">
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="">Range of experience</label>
             <input type="range" min="0" max="20" step="5">
+            </div>
            </fieldset>
 
 
            <fieldset>
             <legend>Text Input</legend>
+            <div class="inputarea"> 
             <label for="">About Your Self:</label>
             <textarea name="" id="" rows="4"></textarea>
+            </div>
             <br>
             <br>
+            <div class="inputarea"> 
             <label for="">Address:</label>
             <textarea name="" id=""></textarea>
+            </div>
             <br>
             <br>
            </fieldset>
@@ -132,20 +186,24 @@
             <legend>
                 Hidden Field
             </legend>
+            <div class="inputarea"> 
             <label for="hidden file">hidden file</label>
             <input type="hidden">
+            </div>
            </fieldset>
 
            <fieldset>
             <legend>
                 For Other Controlls:
             </legend>
-            <label for="reset">Reset Button:</label>
-            <button type="reset">Reset</button>
+            <div class="inputarea"> 
+            <button type="reset" class="button1">Create Profile</button>
+            </div>
             <br>
             <br>
-            <label for="Submit">Submit Button:</label>
-            <button type="submit">Submit</button>
+            <div class="inputarea"> 
+            <button type="submit"  class="button2">Clear form</button>
+            </div>
            </fieldset>
 
 

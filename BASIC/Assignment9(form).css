@@ -1,0 +1,101 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    font-family: sans-serif;
+}
+
+#heading {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 45rem;
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    align-items: center;
+    position :sticky;
+    z-index: 10;
+    top: 10px ;
+}
+
+
+form{
+     width: 45rem;
+    background-color: white;
+}
+
+fieldset{
+    font-weight: 500;
+    background-color: rgb(238, 238, 238);
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.inputarea {
+    font-weight: 500;
+    margin: 5px ;
+    display: grid;
+}
+
+input{
+    border:1px solid rgb(206, 206, 210);
+    border-radius: 5px;
+    height:30px ;
+     display: flex;
+    align-items: center;
+}
+
+#photo {
+    display: flex;
+    align-items: center;
+}
+
+#gender{
+    display: flex;
+    align-items: center;
+}
+
+#skill{
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+}
+
+#selectitems{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    height: 30px;
+}
+
+.button1{
+height: 35px;
+width: 98%;
+background-color: rgb(43, 43, 220);
+color: white;
+font-size: 16px;
+border-radius: 5px;
+
+}
+
+.button2{
+height: 35px;
+width: 98%;
+background-color: rgb(105, 105, 107);
+color: white;
+font-size: 16px;
+border-radius: 5px;
+}
