@@ -36,6 +36,7 @@ console.log("mark 1 bmi is  "+markbmi1);
 
 let Markhigerbmi1 = markbmi1 > johnbmi1
 
+console.log(Markhigerbmi1)
 console.log("john 2 bmi is" + johnbmi2);
 console.log("mark 2 bmi is  "+markbmi2);
 

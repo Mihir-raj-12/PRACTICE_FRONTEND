@@ -32,7 +32,7 @@
     width: 200px;
     background-color: rgb(4, 29, 194);
     top: 600px;
-    left: 1300px;
+    right: 100px;
 
 }
 
@@ -47,16 +47,48 @@
 
 
 #box4:hover{
-    animation: moveBox4 0.5s forwards;
+    /* animation: moveBox4 0.5s forwards; */
+    animation-name: animatethis;
+    animation-duration: 10s;
 }
 
-@keyframes moveBox4 {
+/* @keyframes moveBox4 {
     from {
         transform: translate(0, 0);
     }
     to {
         transform: translate(100px, 50px);
     }
+} */
+
+@keyframes animatethis{
+
+    0%{
+        top: 0px;
+        right:0px
+    }
+
+    25%{
+        top: 25px;
+        right:25px
+    }
+
+    50%{
+        top: 50px;
+        right:50px
+    }
+
+    75%{
+        top: 75px;
+        left:75px
+    }
+
+     100%{
+        top: 100px;
+        left:100px
+    }
+
+    
 }
 
 
