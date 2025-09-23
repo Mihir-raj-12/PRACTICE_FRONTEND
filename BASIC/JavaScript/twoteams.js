@@ -47,4 +47,8 @@ else if(avgdol < avgkol){
 }
 else if(avgdol = avgkol && avgdol > 100 && avgkol > 100){
     console.log("draw");
+
+
+
+    // hellloo
 }
