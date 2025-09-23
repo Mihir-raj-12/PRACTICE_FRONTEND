@@ -6,7 +6,8 @@ let initils = button.addEventListener("click", function(){
     let result = "";
     for(let i = 0 ; i<final.length ;i++){
     let char = final[i][0];
-        result = result + char  + ".";
+        result = result + char ;
+        if(final.length < -1)
     };
 
     let finalresult  = document.getElementById("final");
