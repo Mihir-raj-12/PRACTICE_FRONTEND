@@ -20,12 +20,11 @@ let order = button.addEventListener("click", function(){
 
     for(let i =0 ; i<orderlist.length ; i++){
 
-        let char  = orderlist[i].split("");
-        console.log(char);
-        let cap = char[0].toUpperCase();
-        console.log(cap);
-        result = cap + char;
-      
+        // let char  = orderlist[i].split("");
+        // console.log(char);
+        // let cap = char[0].toUpperCase();
+        // console.log(cap);
+        // result = cap + char;
     }
 
     console.log(result);

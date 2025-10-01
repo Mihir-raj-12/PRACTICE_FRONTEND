@@ -10,11 +10,11 @@ let givenString  = button.addEventListener("click", function(){
     let upper = newString.map(Element => {
         return Element.toUpperCase();
     });
-        // mystring.forEach(element => {
-        // if(element.length > 5){
-        //     newString.push(element);
-        //     upper.push(element.toUpperCase()) 
-        // }
+    //     mystring.forEach(element => {
+    //     if(element.length > 5){
+    //         newString.push(element);
+    //         upper.push(element.toUpperCase()) 
+    //     }
 
     // for(let i=0;i<mystring.length;i++){
     //     if(mystring[i].length > 5){
