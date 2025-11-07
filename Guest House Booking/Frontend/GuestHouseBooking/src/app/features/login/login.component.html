@@ -1,0 +1,46 @@
+<div class="flex items-center justify-center min-h-screen bg-gray-100 font-sans">
+  <div class="w-full max-w-md p-8">
+    <div class="bg-white rounded-lg shadow-lg p-10 text-center">
+
+      <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+        Guest House Booking
+      </h2>
+      <p class="text-gray-600 mb-8">
+        Please log in to continue
+      </p>
+
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+        <div class="mb-6 text-left">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-700">Email</label>
+          <input 
+            id="email" 
+            type="email" 
+            formControlName="email"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        </div>
+
+        <div class="mb-6 text-left">
+          <label for="password" class="block mb-2 text-sm font-medium text-gray-700">Password</label>
+          <input 
+            id="password" 
+            type="password" 
+            formControlName="password"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        </div>
+
+        <button 
+          type="submit" 
+          [disabled]="loginForm.invalid" 
+          class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold text-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-blue-300 disabled:cursor-not-allowed transition-colors duration-200">
+          Log In
+        </button>
+
+        <div *ngIf="errorMessage" class="mt-6 bg-red-100 border border-red-300 text-red-700 px-4 py-3 rounded-lg text-sm">
+          {{ errorMessage }}
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

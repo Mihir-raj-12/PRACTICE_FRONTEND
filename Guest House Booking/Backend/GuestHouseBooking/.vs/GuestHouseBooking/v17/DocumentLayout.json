@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\controllers\\guesthousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:controllers\\guesthousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\dtos\\guesthousecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:dtos\\guesthousecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\dtos\\admincreateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:dtos\\admincreateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\guesthousebooking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:guesthousebooking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\guesthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\guesthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\emailnotificationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\emailnotificationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|c:\\risejuly_mihir\\guest house booking\\backend\\guesthousebooking\\migrations\\20251104041237_initialfullmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D9654-3029-483F-9E22-F90A1B1DE64C}|GuestHouseBooking.csproj|solutionrelative:migrations\\20251104041237_initialfullmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bed.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Bed.cs",
+              "RelativeDocumentMoniker": "Models\\Bed.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Bed.cs",
+              "RelativeToolTip": "Models\\Bed.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:15:02.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T04:07:02.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuestHouseCreateDto.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\GuestHouseCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\GuestHouseCreateDto.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\GuestHouseCreateDto.cs",
+              "RelativeToolTip": "DTOs\\GuestHouseCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T07:47:09.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:11:41.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:10:39.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuestHousesController.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\GuestHousesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GuestHousesController.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Controllers\\GuestHousesController.cs",
+              "RelativeToolTip": "Controllers\\GuestHousesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T08:16:50.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T12:57:12.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:17:27.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailNotificationLog.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\EmailNotificationLog.cs",
+              "RelativeDocumentMoniker": "Models\\EmailNotificationLog.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\EmailNotificationLog.cs",
+              "RelativeToolTip": "Models\\EmailNotificationLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:19:47.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserLoginDto.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:54:31.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminCreateUserDto.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\AdminCreateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminCreateUserDto.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\DTOs\\AdminCreateUserDto.cs",
+              "RelativeToolTip": "DTOs\\AdminCreateUserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:55:37.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GuestHouseBooking.csproj",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\GuestHouseBooking.csproj",
+              "RelativeDocumentMoniker": "GuestHouseBooking.csproj",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\GuestHouseBooking.csproj",
+              "RelativeToolTip": "GuestHouseBooking.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T03:43:00.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GuestHouse.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\GuestHouse.cs",
+              "RelativeDocumentMoniker": "Models\\GuestHouse.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\GuestHouse.cs",
+              "RelativeToolTip": "Models\\GuestHouse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:12:15.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Models\\AuditLog.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\AuditLog.cs",
+              "RelativeToolTip": "Models\\AuditLog.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:19:06.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:26:49.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:14:23.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordResetOtp.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\PasswordResetOtp.cs",
+              "RelativeDocumentMoniker": "Models\\PasswordResetOtp.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\PasswordResetOtp.cs",
+              "RelativeToolTip": "Models\\PasswordResetOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:20:23.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251104041237_InitialFullModel.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Migrations\\20251104041237_InitialFullModel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251104041237_InitialFullModel.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Migrations\\20251104041237_InitialFullModel.cs",
+              "RelativeToolTip": "Migrations\\20251104041237_InitialFullModel.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T04:12:37.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:16:52.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Risejuly_Mihir\\Guest House Booking\\Backend\\GuestHouseBooking\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:15:37.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

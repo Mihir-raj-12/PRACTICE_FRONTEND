@@ -1,0 +1,59 @@
+<div class="bg-white p-6 rounded-lg shadow-md">
+  <h1 class="text-2xl font-semibold text-gray-800 mb-6">Guest House Management</h1>
+
+  <!-- 
+    Here we use the 'async' pipe.
+    It automatically subscribes to our 'guestHouses$' observable,
+    handles loading, and unsubscribes when done.
+  -->
+  <div *ngIf="guestHouses$ | async as guestHouses; else loadingOrError">
+
+    <!-- This shows if the array is empty -->
+    <div *ngIf="guestHouses.length === 0" class="text-center text-gray-500 py-8">
+      No guest houses found.
+      <!-- TODO: Add a "Create New" button -->
+    </div>
+
+    <!-- This table shows if we have data -->
+    <table *ngIf="guestHouses.length > 0" class="min-w-full divide-y divide-gray-200">
+      <thead class="bg-gray-50">
+        <tr>
+          <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
+          <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location</th>
+          <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+          <th scope="col" class="relative px-6 py-3">
+            <span class="sr-only">Edit</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200">
+        <tr *ngFor="let guesthouse of guestHouses">
+          <td class="px-6 py-4 whitespace-nowrap">
+            <div class="text-sm font-medium text-gray-900">{{ guesthouse.name }}</div>
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap">
+            <div class="text-sm text-gray-700">{{ guesthouse.location }}</div>
+          </td>
+          <td class="px-6 py-4">
+            <div class="text-sm text-gray-700 truncate" style="max-width: 300px;">{{ guesthouse.description }}</div>
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+            <a href="#" class="text-blue-600 hover:text-blue-900">Edit</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- This template shows while loading or if there's an error -->
+  <ng-template #loadingOrError>
+    <div *ngIf="error; else loading" class="bg-red-100 border border-red-300 text-red-700 px-4 py-3 rounded-lg">
+      <strong>Error:</strong> {{ error }}
+    </div>
+    <ng-template #loading>
+      <div class="text-center text-gray-500 py-8">Loading guest houses...</div>
+    </ng-template>
+  </ng-template>
+
+</div>

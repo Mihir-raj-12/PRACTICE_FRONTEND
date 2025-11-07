@@ -1,0 +1,50 @@
+# User secrets (used with dotnet user-secrets)
+**/secrets.json
+
+# Environment-specific settings
+appsettings.*.json
+!appsettings.Development.json  
+appsettings.json
+
+# Optional: keep dev settings if safe
+# Azure secrets
+*.azurekeyvault.json
+
+# Local database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Entity Framework migrations (optional if sensitive)
+Migrations/
+
+# Token or credential files
+*.pem
+*.key
+*.crt
+*.pfx
+*.env
+.env.*
+
+# IDE and build artifacts
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and diagnostics
+*.log
+logs/
+*.dmp
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
